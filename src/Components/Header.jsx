@@ -1,25 +1,19 @@
 import React, { useState } from "react";
-import {
-  BiCamera,
-  BiLogoFacebook,
-  BiLogoGithub,
-  BiLogoInstagram,
-  BiLogoLinkedin,
-  BiLogoTwitter,
-} from "react-icons/bi";
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
 import ParentLi from "./ParentLi";
+import { CgWebsite } from "react-icons/cg";
 const Header = () => {
   const [projectarrow, setProjecrarrow] = useState(false);
 
   return (
     <>
-      <div className="row bg-dark header-con col-lg-12 row p-5 m- m-0 justify-content-between align-items-center">
+      <div className="row  header-con m-0 p-4 col-12 col-lg-12 justify-content-between align-items-center">
         <div className="logodiv col-lg-3 gap-2 d-flex align-items-center">
-          <BiCamera size={30} className="biicons" />
+          <CgWebsite size={30} className="biicons" />
           <h3 className="display-5">Portfolio</h3>
         </div>
-        <ul className="d-flex fw-medium menu-list col-12 col-lg-5 menu text-uppercase gap-3 list-unstyled flex-row align-items-center justify-content-around m-0 grandparentli">
+        <ul className="d-flex fw-medium col-12 col-lg-5 p-0 menu text-uppercase gap-2 list-unstyled flex-row align-items-center justify-content-around m-0 grandparentli">
           <li className="grandparent-list-items">Home</li>
           <li className="grandparent-list-items">Education</li>
           <li

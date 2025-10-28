@@ -11,12 +11,14 @@ body{
     --primarycolor:#A6B28B;
     --iconstransitions:all 0.4s;
 }
+/* .header-con{
+    background-color: rgba(255, 255, 255, 0.2);
+} */
 .biicons{
     color:var(--primarycolor) !important ;
 }
-.menu-list{
-    color: #d1d5cb !important;
-  
+.grandparentli{
+     color: #d1d5cb !important;
 }
 .grandparent-list-items{
     cursor: pointer;
@@ -83,8 +85,12 @@ color: white !important;
         /* display: flex;
         flex-direction: column; */
         gap: 1rem;
+        padding: 2% !important;
     }
     .logodiv{
         justify-content: center;
     }
+   .grandparentli{
+    justify-content: space-between !important;
+   }
  }
