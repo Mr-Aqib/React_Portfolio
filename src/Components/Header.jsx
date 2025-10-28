@@ -19,8 +19,7 @@ const Header = () => {
           <BiCamera size={30} className="biicons" />
           <h3 className="display-5">Portfolio</h3>
         </div>
-
-        <ul className="d-flex fw-medium menu-list col-12 col-lg-5 menu text-uppercase gap-2 list-unstyled flex-row align-items-center justify-content-around m-0 grandparentli">
+        <ul className="d-flex fw-medium menu-list col-12 col-lg-5 menu text-uppercase gap-3 list-unstyled flex-row align-items-center justify-content-around m-0 grandparentli">
           <li className="grandparent-list-items">Home</li>
           <li className="grandparent-list-items">Education</li>
           <li
