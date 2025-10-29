@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
 import ParentLi from "./ParentLi";
@@ -8,6 +8,15 @@ import { RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [projectarrow, setProjecrarrow] = useState(false);
   const [open, setOpen] = useState(false);
+  const menu = useRef();
+  const menuShow = () => {
+    menu.current.classList.toggle("showmenu");
+    setOpen(true);
+  };
+  const menuClose = () => {
+    menu.current.classList.remove("showmenu");
+    setOpen(false);
+  };
 
   return (
     <>
@@ -20,22 +29,25 @@ const Header = () => {
           <div className="position-absolute" style={{ right: "2%" }}>
             {open ? (
               <RxCross1
-                onClick={() => setOpen(false)}
+                onClick={menuClose}
                 size={25}
                 className="biicons biisocialmenu"
                 cursor="pointer"
               />
             ) : (
               <TiThMenuOutline
-                onClick={() => setOpen(true)}
                 size={25}
+                onClick={menuShow}
                 className="biicons  biisocialmenu"
                 cursor="pointer"
               />
             )}
           </div>
         </div>
-        <ul className="d-flex fw-medium col-12 col-lg-5 p-0 menu text-uppercase gap-2 list-unstyled flex-row align-items-center justify-content-around m-0 grandparentli">
+        <ul
+          ref={menu}
+          className="d-flex fw-medium col-12 col-lg-5 p-0 menu text-uppercase gap-2 list-unstyled flex-row align-items-center justify-content-around m-0 grandparentli"
+        >
           <li className="grandparent-list-items">Home</li>
           <li className="grandparent-list-items">Education</li>
           <li

@@ -148,12 +148,24 @@ gap: 4rem !important;
 /* Layer priority */
 z-index: 999;
 border-radius: 40px;
+/* display: none !important; */
+transform: translateY(30%);
+opacity: 0 !important;
+visibility: hidden !important;
+transition: all 0.4s;
+
+   }
+   .showmenu{
+
+transform: translateY(0%);
+opacity: 1 !important;
+visibility: visible !important;
    }
    .parent-li{
-    left: 40% ;
+    left: 60% ;
    }
    .child-li{
-    top: -500%;
+    top: -14rem;
+    right:115%;
    }
  }
- 
