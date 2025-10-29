@@ -6,6 +6,12 @@
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 body {
   font-family: "montFront";
   background-color: #1c352d;
@@ -172,7 +178,8 @@ body {
     transform: translateY(30%);
     opacity: 0 !important;
     visibility: hidden !important;
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition: transform 0.4s ease, opacity 0.4s ease,
+      visibility 0s linear 0.7s;
     z-index: 999;
   }
   .showmenu {
@@ -186,5 +193,8 @@ body {
   .child-li {
     top: -14rem;
     right: 115%;
+  }
+  .hero-sec-con {
+    height: 100vh;
   }
 }

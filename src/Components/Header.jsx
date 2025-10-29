@@ -20,9 +20,9 @@ const Header = () => {
 
   return (
     <>
-      <div className="row  header-con m-0 p-4 col-12 col-lg-12 justify-content-between align-items-center">
+      <div className="row header-con m-0 p-4 col-12 col-lg-12 justify-content-between align-items-center">
         <div className="d-flex col-lg-3 align-items-center justify-content-center position-relative">
-          <div className="logodiv gap-2 d-flex align-items-center">
+          <div className="logodiv gap-2 d-flex  align-items-center">
             <CgWebsite size={30} className="biicons" />
             <h3 className="display-5">Portfolio</h3>
           </div>

@@ -3,7 +3,7 @@ import Button from "./Button";
 const HeroSection = () => {
   return (
     <>
-      <div className="container-fuid">
+      <div className="hero-sec-con container-fuid">
         <div
           style={{ height: "70vh" }}
           className="container text-center col-lg-6 d-flex flex-column align-items-center justify-content-center"
