@@ -5,13 +5,13 @@ const HeroSection = () => {
     <>
       <div className="hero-sec-con container-fuid">
         <div
-          style={{ height: "70vh" }}
+          style={{ height: "60vh" }}
           className="container text-center col-lg-6 d-flex flex-column align-items-center justify-content-center"
         >
           <h1 className="">
             I'm{" "}
             <span className="aqibspan position-relative">Muhammad Aqib</span>, a
-            Professional Web Developer & Software Engineer
+            Professional Web Developer,Web Designer & Software Engineer
           </h1>
           <p className="p-0 m-0">
             I specialize in building responsive and scalable web applications

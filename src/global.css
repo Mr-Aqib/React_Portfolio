@@ -111,7 +111,13 @@ body {
 .aqibspan {
   z-index: -1;
 }
-
+.what-build {
+  transition: all 0.5s;
+}
+.what-build:hover {
+  transform: translateY(-10%);
+  color: #a6b28b;
+}
 .btnstyle {
   background-color: #a6b28b;
   transition: var(--iconstransitions);
@@ -119,7 +125,16 @@ body {
 .btnstyle:hover {
   transform: translateY(-10%);
 }
-
+.project-detail {
+  padding: 15px 20px;
+  text-align: center;
+  margin: 10px auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  max-width: max-content;
+}
+.project-images {
+  background-color: #a6b28b;
+}
 @media screen and (max-width: 945px) {
   .logodiv {
     justify-content: center;
@@ -158,7 +173,7 @@ body {
     position: absolute;
     top: 20%;
     left: 10%;
-    height: 80vh;
+    height: 60vh;
     width: 80vw;
     /* Dark Glassmorphism  */
     background: rgba(28, 53, 45, 0.9); /* transparency */
@@ -188,13 +203,14 @@ body {
     visibility: visible !important;
   }
   .parent-li {
-    left: 60%;
+    left: 50%;
   }
   .child-li {
     top: -14rem;
-    right: 115%;
+    right: 105%;
   }
   .hero-sec-con {
-    height: 100vh;
+    height: 60vh;
+    z-index: 10 !important;
   }
 }
