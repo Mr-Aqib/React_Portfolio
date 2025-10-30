@@ -178,8 +178,8 @@ body {
     transform: translateY(30%);
     opacity: 0 !important;
     visibility: hidden !important;
-    transition: transform 0.4s ease, opacity 0.4s ease,
-      visibility 0s linear 0.7s;
+    transition: all 0.4s;
+
     z-index: 999;
   }
   .showmenu {
