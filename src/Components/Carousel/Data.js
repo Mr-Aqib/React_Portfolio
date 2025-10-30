@@ -1,26 +1,54 @@
 export const countries = [
   {
-    image: "./img4.jpg",
+    image: "./img1.jpg",
     title: "Brazil",
   },
   {
-    image: "./img5.jpg",
+    image: "./img2.jpg",
     title: "China",
+  },
+  {
+    image: "./img3.jpg",
+    title: "France",
+  },
+  {
+    image: "./img7.jpg",
+    title: "France",
+  },
+  {
+    image: "./img5.jpg",
+    title: "France",
   },
   {
     image: "./img6.jpg",
     title: "France",
   },
   {
-    image: "./img1.jpg",
-    title: "Japan",
+    image: "./img4.jpg",
+    title: "France",
   },
   {
-    image: "./img2.jpg",
-    title: "Norway",
+    image: "./img8.jpg",
+    title: "France",
   },
   {
-    image: "./img3.jpg",
-    title: "Norway",
+    image: "./img9.jpg",
+    title: "France",
+  },
+  {
+    image: "./img10.jpg",
+    title: "France",
+  },
+  {
+    image: "./img11.jpg",
+    title: "France",
+  },
+  {
+    image: "./img12.jpg",
+    title: "France",
+  },
+  {
+    image: "./img13jpg",
+    title: "France",
   },
 ];

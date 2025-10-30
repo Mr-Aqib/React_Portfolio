@@ -196,7 +196,7 @@ body {
   font-size: 40px;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: gainsboro;
+  /* background-color: gainsboro; */
   display: flex;
   justify-content: center;
   align-items: center;
