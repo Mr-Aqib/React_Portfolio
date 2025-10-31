@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "./Carousel/Carousel";
 import { countries } from "./Carousel/Data";
 import JsCountUp from "./Carousel/JsCountUp";
+import ScrollAnimation from "./ScrollAnimation";
 
 const Project = () => {
   return (
@@ -14,6 +15,7 @@ const Project = () => {
         </div>
         <div className="container mt-4 d-flex flex-column align-items-center justify-content-center">
           <Carousel images={countries} />
+
           <JsCountUp />
         </div>
       </div>
