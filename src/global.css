@@ -240,6 +240,38 @@ body {
   background-color: steelblue;
 }
 /* -----------------Carsousle----------------------------- */
+/* Counter container */
+.counter-container {
+  background: #0a0a0a; /* Almost black background */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7); /* subtle depth */
+  border-radius: 1rem; /* smooth corners */
+  padding: 2rem; /* spacing inside */
+  color: #ffffff; /* text color */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth hover effect */
+}
+
+/* Hover effect for subtle lift */
+.counter-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+/* Individual counter items */
+.counter-container h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #a6b28b; /* golden highlight for numbers */
+  margin-bottom: 0.5rem;
+}
+
+/* Counter description */
+.counter-container p {
+  font-size: 1rem;
+  color: #ccc; /* light gray for description */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 @media screen and (max-width: 786px) {
   .header-con {
     padding: 4% !important;
@@ -315,5 +347,16 @@ body {
     height: 300px;
     width: 100%;
     max-width: 1000px;
+  }
+  .counter-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  .counter-container h2 {
+    font-size: 2.5rem;
+  }
+  .counter-container p {
+    font-size: 0.9rem;
   }
 }

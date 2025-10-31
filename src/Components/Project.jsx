@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel/Carousel";
 import { countries } from "./Carousel/Data";
+import JsCountUp from "./Carousel/JsCountUp";
 
 const Project = () => {
   return (
@@ -11,8 +12,9 @@ const Project = () => {
             What I’ve Built
           </h3>
         </div>
-        <div className="container mt-4 d-flex align-items-center justify-content-center">
+        <div className="container mt-4 d-flex flex-column align-items-center justify-content-center">
           <Carousel images={countries} />
+          <JsCountUp />
         </div>
       </div>
     </>

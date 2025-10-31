@@ -56,18 +56,6 @@ const Carousel = ({ images }) => {
         <div className="carousel_arrow_right" onClick={slideRight}>
           &rsaquo;
         </div>
-
-        <div className="carousel_pagination">
-          {images.map((_, index) => (
-            <div
-              key={index}
-              className={`pagination_dot ${
-                index === current ? "pagination_dot-active" : ""
-              }`}
-              onClick={() => setCurrent(index)}
-            />
-          ))}
-        </div>
       </div>
     </div>
   );
