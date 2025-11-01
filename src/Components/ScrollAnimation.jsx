@@ -1,34 +1,36 @@
 import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-const ScrollAnimation = ({ children, axis = "Y" }) => {
-  const [show, setShow] = useState(false);
+const ScrollAnimation = ({ children, axis = "Y", duration = 0.6 }) => {
   const { ref, inView } = useInView({
-    triggerOnce: false,
-    threshold: 0.1,
+    triggerOnce: false, // animate again on re-entry
+    threshold: 0.2, // start animation when 20% visible
   });
 
+  const [visible, setVisible] = useState(false);
+
   useEffect(() => {
-    setShow(inView);
+    setVisible(inView);
   }, [inView]);
 
+  // 🔹 built-in distance = 100px
   const direction = () =>
     axis === "X"
-      ? show
+      ? visible
         ? "translateX(0px)"
         : "translateX(50px)"
-      : show
+      : visible
       ? "translateY(0px)"
-      : "translateY(100px)";
+      : "translateY(50px)";
 
   return (
     <div
       ref={ref}
-      className="Animation"
+      className="scroll-animate"
       style={{
-        opacity: show ? 1 : 0,
+        opacity: visible ? 1 : 0,
         transform: direction(),
-        transition: "all 0.5s",
+        transition: `all ${duration}s ease-out`,
       }}
     >
       {children}

@@ -29,7 +29,7 @@ const JsCountUp = () => {
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation axis="Y">
+      <ScrollAnimation axis="X">
         <div className="d-flex flex-column align-items-center justify-content-center">
           <h2 className="display-2">
             {counting ? <CountUp start={0} end={5} duration={2} /> : 0}

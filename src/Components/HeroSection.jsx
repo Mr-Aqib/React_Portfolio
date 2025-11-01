@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="hero-sec-con container-fuid">
         <div
           style={{ height: "60vh" }}
-          className="container text-center col-lg-6 d-flex flex-column align-items-center justify-content-center"
+          className="container text-center col-lg-6 d-flex flex-column align-items-center justify-content-center her-sec-con-con"
         >
           <h1 className="">
             I'm{" "}

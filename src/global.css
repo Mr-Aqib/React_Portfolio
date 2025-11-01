@@ -271,7 +271,17 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
+.work-tog-btn {
+  background-color: #a6b28b;
+  transition: all 0.5s;
+}
+.work-tog-btn:hover {
+  background-color: #1c352d;
+  transform: translateY(-5px);
+}
+.worktoghter-con {
+  margin-top: 7rem !important;
+}
 @media screen and (max-width: 786px) {
   .header-con {
     padding: 4% !important;
@@ -358,5 +368,15 @@ body {
   }
   .counter-container p {
     font-size: 0.9rem;
+  }
+  .work-tog-h1 {
+    font-size: 1.4rem;
+  }
+  .worktoghter-con {
+    margin-top: 4rem !important;
+    padding: 3rem !important;
+  }
+  .work-tog-con-con {
+    padding: 0 !important;
   }
 }
