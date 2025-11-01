@@ -308,9 +308,7 @@ body {
 .contact-icon-div {
   background-color: #a6b28b;
 }
-.contact-form-box {
-  background-color: #a6b28b;
-}
+
 @keyframes fadeOut {
   from {
     opacity: 1;

@@ -51,7 +51,7 @@ const ContactForm = () => {
             </div>
 
             {/* Location */}
-            <div className="d-flex mb-3">
+            <div className="d-flex mb-3 contact-icon-box">
               <div
                 className="flex-shrink-0 contact-icon-div bg-opacity-10 rounded d-flex align-items-center justify-content-center me-3"
                 style={{ width: "60px", height: "60px" }}
@@ -65,7 +65,7 @@ const ContactForm = () => {
             </div>
 
             {/* Phone */}
-            <div className="d-flex mb-3">
+            <div className="d-flex mb-3 contact-icon-box">
               <div
                 className="flex-shrink-0 contact-icon-div bg-opacity-10 rounded d-flex align-items-center justify-content-center me-3"
                 style={{ width: "60px", height: "60px" }}
@@ -79,7 +79,7 @@ const ContactForm = () => {
             </div>
 
             {/* Email */}
-            <div className="d-flex mb-3">
+            <div className="d-flex mb-3 contact-icon-box">
               <div
                 className="flex-shrink-0 contact-icon-div bg-opacity-10 rounded d-flex align-items-center justify-content-center me-3"
                 style={{ width: "60px", height: "60px" }}

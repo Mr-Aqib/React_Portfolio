@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import ScrollAnimation from "../ScrollAnimation";
 
 const Carousel = ({ images }) => {
   const [current, setCurrent] = useState(0);
