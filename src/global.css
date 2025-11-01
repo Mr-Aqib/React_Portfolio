@@ -26,7 +26,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 0px 0px 10px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
 .biicons {
@@ -301,7 +301,16 @@ body {
 .fade-out {
   animation: fadeOut 0.8s forwards;
 }
-
+/* ---------------------------------CONACT FORM ----------- */
+.contact-from-con {
+  margin-top: 4rem;
+}
+.contact-icon-div {
+  background-color: #a6b28b;
+}
+.contact-form-box {
+  background-color: #a6b28b;
+}
 @keyframes fadeOut {
   from {
     opacity: 1;
