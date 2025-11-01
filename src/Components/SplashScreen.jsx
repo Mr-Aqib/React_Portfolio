@@ -53,7 +53,7 @@ const SplashScreen = ({ onFinish }) => {
           // last word reached, show it for 1.5s then finish
           setTimeout(() => {
             onFinish();
-          }, 300);
+          }, 500);
           return prev;
         }
         return prev + 1;
