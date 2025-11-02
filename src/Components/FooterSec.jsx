@@ -41,6 +41,7 @@ const FooterSec = () => {
             network="whatsapp"
             bgColor="#468849ff"
             cursor="pointer"
+            className="biiconssocial"
           />
         </div>
       </div>

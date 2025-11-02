@@ -1,54 +1,38 @@
 export const countries = [
   {
     image: "./img1.jpg",
-    title: "Raect-Chat-Bot",
+    title: "React-Chat-Bot",
   },
   {
-    image: "./img8.jpg",
-    title: "EchoBeat-Website",
-  },
-  {
-    image: "./img9.jpg",
+    image: "./img2.png",
     title: "EchoBeat-Website",
   },
   {
     image: "./img3.jpg",
+    title: "Fiji-Website",
+  },
+  {
+    image: "./img4.png",
     title: "E-commerce Website ",
   },
   {
-    image: "./img11.jpg",
-    title: "Products-Section",
+    image: "./img5.jpg",
+    title: "EchoBeat",
   },
   {
-    image: "./img2.jpg",
-    title: "Product Listing",
-  },
-  {
-    image: "./img7.jpg",
-    title: "Fiji-Herbal-Website",
+    image: "./img6.png",
+    title: "JS Components",
   },
   {
     image: "./img12.jpg",
-    title: "Game-(Pure-JS)",
+    title: "Pure-Js Game",
   },
   {
-    image: "./img6.jpg",
-    title: "Color-Sahdes-Generator (Pure-JS)",
-  },
-  {
-    image: "./img4.jpg",
-    title: "Controlled-Input-Forms",
-  },
-  {
-    image: "./img5.jpg",
-    title: "Accordians",
-  },
-  {
-    image: "./img10.jpg",
+    image: "./img8.png",
     title: "Tech-Website",
   },
   {
     image: "./img13.jpg",
-    title: "Pain-Tool(Pure-JS)",
+    title: "MS Paint (Pure-JS)",
   },
 ];

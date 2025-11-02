@@ -43,9 +43,11 @@ body {
   transition: all 0.4s;
   font-size: 1rem;
 }
+.biiconssocial {
+  transition: all 0.5s ease;
+}
 .biiconssocial:hover {
   color: white !important;
-  transition: var(--iconstransitions);
   transform: translatey(-10px);
 }
 .parent-li {
