@@ -5,8 +5,8 @@ import { SocialIcon } from "react-social-icons";
 
 const FooterSec = () => {
   return (
-    <footer className="container-fluid mt-5 bg-dark py-5 px-4">
-      <div className="d-flex flex-column flex-md-row align-items-center justify-content-between text-white">
+    <footer className="container-fluid mt-5 footer-con  py-5 px-4">
+      <div className="d-flex flex-column footer-con-con flex-md-row align-items-center justify-content-between text-white">
         {/* Logo and Name */}
         <div className="d-flex align-items-center gap-2 mb-3 mb-md-0">
           <ReactMovingLogo />
@@ -23,26 +23,24 @@ const FooterSec = () => {
 
         {/* Social links */}
         <div className="d-flex gap-3">
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white"
-          >
-            <FaGithub className="biicons" size={25} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/yourusername/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white"
-          >
-            <FaLinkedin className="biicons" size={25} />
-          </a>
+          <FaGithub
+            className="biicons biiconssocial"
+            cursor="pointer"
+            size={25}
+          />
+
+          <FaLinkedin
+            className="biicons biiconssocial"
+            cursor="pointer"
+            size={25}
+          />
+
           <SocialIcon
+            href="https://wa.me/966503091340?text=Hello%20Mr%20Aqib"
             style={{ height: 28, width: 28 }}
             network="whatsapp"
             bgColor="#468849ff"
+            cursor="pointer"
           />
         </div>
       </div>
