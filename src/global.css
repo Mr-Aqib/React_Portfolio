@@ -308,6 +308,21 @@ body {
 .contact-icon-div {
   background-color: #a6b28b;
 }
+/* ------------------------React-Moving Logo---------------------- */
+.react-logo {
+  width: 29px;
+  height: 25px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @keyframes fadeOut {
   from {
