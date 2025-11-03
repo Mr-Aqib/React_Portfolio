@@ -10,6 +10,7 @@ const App = () => {
   return (
     <>
       <Toaster />
+
       {showSplash ? (
         <SplashScreen onFinish={() => setShowSplash(false)} />
       ) : (
