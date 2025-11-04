@@ -8,7 +8,6 @@ import FooterSec from "../Components/FooterSec";
 const Home = () => {
   return (
     <>
-      <Header />
       <HeroSection />
       <Project />
       <ContactForm />
