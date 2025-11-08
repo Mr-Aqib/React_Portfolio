@@ -1,11 +1,10 @@
 import React from "react";
+import EducationCard from "../Components/EducationCard";
 
 const Education = () => {
   return (
     <>
-      <div style={{ height: "100vh" }} className="container">
-        glo
-      </div>
+      <EducationCard />
     </>
   );
 };
