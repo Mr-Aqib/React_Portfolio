@@ -338,27 +338,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   transform: translateY(-20px);
 }
-.education-heading {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.education-heading::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 3px; /* line thickness */
-  background-color: #2affc1; /* line color */
-  left: 0;
-  bottom: -5px; /* distance from text */
-  transition: width 0.3s ease;
-  border-radius: 2px;
-}
-
-.education-heading:hover::after {
-  width: 100%;
-}
 
 @keyframes spin {
   from {
