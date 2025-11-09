@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Education from "./Pages/Education";
 import Header from "./Components/Header";
 import Skills from "./Pages/Skills";
+import Experience from "./Pages/Experience";
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -26,6 +27,7 @@ const App = () => {
               <Route path="/Home" element={<Home />} />
               <Route path="/Education" element={<Education />} />
               <Route path="/Skills" element={<Skills />} />
+              <Route path="/Experience" element={<Experience />} />
             </Routes>
           </div>
         </Router>

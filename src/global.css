@@ -338,6 +338,26 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   transform: translateY(-20px);
 }
+/* --------------------Exp Card----------------- */
+.expcard {
+  background: linear-gradient(135deg, #1e3a34, #1c352d);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+}
+
+.expcard:hover {
+  background: linear-gradient(135deg, #25634e, #1c352d);
+  box-shadow: 0 8px 24px rgba(0, 255, 170, 0.1);
+}
+
+.container h3 {
+  letter-spacing: 1px;
+}
+
+.bg-dark {
+  background-color: #101820 !important;
+}
 
 @keyframes spin {
   from {
@@ -496,5 +516,12 @@ body {
   .footer-con-con {
     flex-direction: column;
     gap: 1rem;
+  }
+  .expcont {
+    width: 100vw !important;
+    padding: 0%;
+  }
+  .expcardcon {
+    border-radius: 0px !important;
   }
 }
