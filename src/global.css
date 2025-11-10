@@ -358,6 +358,59 @@ body {
 .bg-dark {
   background-color: #101820 !important;
 }
+/* ---------------------Skills---------------------- */
+.skill-glass-card {
+  background: rgba(28, 53, 45, 0.5); /* translucent dark green */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* frosted border */
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  color: #e9f5ec;
+  text-align: center;
+  padding: 2rem;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-glass-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.skill-glass-card:hover::before {
+  top: -20%;
+  left: -20%;
+}
+
+.skill-glass-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  background: rgba(28, 53, 45, 0.7);
+}
+
+.skill-glass-card h3 {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #e9f5ec;
+}
+
+.skill-glass-card svg {
+  margin-bottom: 10px;
+}
 
 @keyframes spin {
   from {
