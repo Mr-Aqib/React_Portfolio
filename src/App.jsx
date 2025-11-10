@@ -8,6 +8,7 @@ import Education from "./Pages/Education";
 import Header from "./Components/Header";
 import Skills from "./Pages/Skills";
 import Experience from "./Pages/Experience";
+import FooterSec from "./Components/FooterSec";
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -30,6 +31,7 @@ const App = () => {
               <Route path="/Experience" element={<Experience />} />
             </Routes>
           </div>
+          <FooterSec />
         </Router>
       )}
     </>
